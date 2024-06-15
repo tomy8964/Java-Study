@@ -1,6 +1,6 @@
-package generic.ex1;
+package generic.ex2;
 
-public class GenericBox<T> {
+public class Box<T> {
 
     private T value;
 
@@ -11,4 +11,5 @@ public class GenericBox<T> {
     public T get() {
         return value;
     }
+
 }

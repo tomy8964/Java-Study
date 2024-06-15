@@ -1,6 +1,7 @@
 package generic.ex1;
 
 public class IntegerBox {
+
     private Integer value;
 
     public void set(Integer value) {
@@ -8,6 +9,6 @@ public class IntegerBox {
     }
 
     public Integer get() {
-        return this.value;
+        return value;
     }
 }
